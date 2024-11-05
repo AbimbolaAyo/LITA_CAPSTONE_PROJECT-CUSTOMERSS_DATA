@@ -3,25 +3,25 @@ Making reference to the Capstone Project Document, carrying out the following ex
 
 ## OUTLINE
 
-[ PROJECT OVERVIEW: ].(project-overview)
+[ PROJECT OVERVIEW: ](project-overview)
 
-[DATA DESCRIPTION:].(data-description)
+[DATA DESCRIPTION:](data-description)
 
-[DASH BOARD REVIEW:].(dashboard-review)
+[DASH BOARD REVIEW:](dashboard-review)
 
-[STATISTICS ABOUT THE DATASET:].(statistics about the dataset)
+[STATISTICS ABOUT THE DATASET:](statistics-about-the-dataset)
 
-[METHODOLOGY:].(methodology)
+[METHODOLOGY:](methodology)
 
-[DATA ANALYSIS:].(data-analysis)
+[DATA ANALYSIS:](data-analysis)
 
-[DASHBOARD OVERVIEW WITH POWERBI:].(dashboard overview with powerbi)
+[DASHBOARD OVERVIEW WITH POWERBI:](dashboard-overview-with-powerbi)
 
-[INSIGHTS GENERATION:].(insights generation)
+[INSIGHTS GENERATION:](insights-generation)
 
-[RECOMMENDATION:].(recommendation)
+[RECOMMENDATION:](recommendation)
 
-[CONCLUSION:].(conclusion)
+[CONCLUSION:](conclusion)
 
 ## PROJECT OVERVIEW:
 
