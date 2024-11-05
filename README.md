@@ -70,3 +70,29 @@ LITA_ The Incubator Hub provided the dataset for this analysis for learning and 
 The Excel sheet made it accessible to analyze the Excel sheet The Excel sheet was further converted to CSV format for easy importing of files into:
 - SQL to write various queries
 - Power BI to create dashboards using various charts (PieChart and clustered Column Chart)
+
+  ## DATA ANALYSIS: 
+
+### Calculation in Excel
+- Generating Subscription Duration (=F2-E2)
+![SubDuration Customers data](https://github.com/user-attachments/assets/cb245bbf-960c-4190-afc1-dc007447d24c)
+
+- calculating most popular subscription type =SUMIF($D1:$D33788,$D8,$H1:$H33788)
+![Excel Customers Data](https://github.com/user-attachments/assets/0638b68d-7a82-489c-a3a8-aaeed6e4c3e9)
+
+- Calculating average subscription duration =AVERAGE(I1:I33788)
+![Excel Customers Data](https://github.com/user-attachments/assets/0638b68d-7a82-489c-a3a8-aaeed6e4c3e9)
+  
+  ## Excel Chart
+![Excel Customers Data 3](https://github.com/user-attachments/assets/ea360151-8a49-46a3-92dd-a3843f425ccd)
+![Excel Customers Data 2](https://github.com/user-attachments/assets/c47964a4-1161-451a-86de-8d931a4a2ebe)
+ 
+  ## Pivot Table
+![Pivot Table foe Customers Data 4](https://github.com/user-attachments/assets/6faeecb7-621b-44a4-9527-f5b68e3f21c7)
+
+## Queries in SQL
+
+``` SQL
+  1. select Region, count (CustomerID) as Region_customers from [dbo].[Customer data sec]
+GROUP BY Region
+```
