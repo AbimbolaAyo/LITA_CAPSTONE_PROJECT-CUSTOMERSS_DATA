@@ -27,36 +27,39 @@ Making reference to the Capstone Project Document, carrying out the following ex
 
 Making reference to the data and capstone project document shared earlier, by analyzing the sales performance of a retail store and carrying out the following exploratory process of the sales data to uncover key insights such as
 
-- Top Selling Products
--  Regional Performances
--  Monthly Sales trends and By telling a compelling story and building an interactive dashboard Power BI report: To gather insight, Highlight findings And make business decisions.
+- Average subscription duration
+- Most popular subscription types
+- Total revenue by subscription type and By telling a compelling story and building an interactive dashboard Power BI report: To gather insight, Highlight findings, And make business decisions.
 
 ## DATA DESCRIPTION:
 
 This dataset includes the following Columns:
 
-- Order Number
-- Customer Id
-- products
-- region
-- Order Date
-- Quantity
-- Unit Price
+- CustomerID
+- CustomerName
+- Region
+- SubscriptionType
+- SubscriptionStart
+- SubscriptionEnd
+- Canceled
+- Revenue
 
 ## DASH BOARD REVIEW:
 
 - Customer Id
-- products: Items sold in the store
-- region: The other regional branches of the store ( North, South, East West)
-- Order Date: The date the order was placed
-- Quantity: The number of units of the product ordered in each transaction
-- Unit Price: The acquisition cost per unit of the product
+- CustomerName
+- Region: The other regional branches of the store ( North, South, East West).
+- Subscription Type: The type of subscription that was subscribed (Basic, Premium, Standard).
+- Subscription Start: The day the subscription started.
+- Subscription End: The day the subscription ended.
+- Canceled: The cancellation of the subscription.
+- Revenue: The income of each subscription.
 
 ## STATISTICS ABOUT THE DATA:
 
-- Number of Unique Customers: 50,000 
-- Number of Products: 6
-- Total Sales: 10,587,500
+- Number of Unique Customers: 33,787
+- Subscription Type: 3
+- Total Revenue:  67,540,175
 - Total Region: 4
 
 ## METHODOLOGY:
