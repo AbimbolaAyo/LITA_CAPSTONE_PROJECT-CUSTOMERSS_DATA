@@ -138,3 +138,9 @@ The Excel sheet made it accessible to analyze the Excel sheet The Excel sheet wa
     FROM [dbo].[Customer data sec]
     GROUP BY canceled
 ```
+![Sql Project 2 4](https://github.com/user-attachments/assets/43f8f6b1-1fa4-49ed-92ff-42cbb43223e3)
+![Sql Project 2 3](https://github.com/user-attachments/assets/9cb5ebeb-4f44-4885-a4be-cc1f1218cf52)
+![Sql Project 2 2](https://github.com/user-attachments/assets/8a7eb273-4f5f-4dee-aba8-7e277630fa73)
+![Sql Project 2 1](https://github.com/user-attachments/assets/74ac96e3-918d-485e-bb9d-e5f48c944eee)
+
+
