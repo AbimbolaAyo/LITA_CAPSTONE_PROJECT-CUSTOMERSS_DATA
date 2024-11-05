@@ -94,5 +94,47 @@ The Excel sheet made it accessible to analyze the Excel sheet The Excel sheet wa
 
 ``` SQL
   1. select Region, count (CustomerID) as Region_customers from [dbo].[Customer data sec]
-GROUP BY Region
+     GROUP BY Region
+```
+```
+  2. select subscriptionType, count (CustomerID) as cust_subscription from [dbo].[Customer data sec]
+     Group by SubscriptionType
+     Order by cust_subscription desc
+```
+```
+  3. SELECT *
+     FROM [dbo].[Customer data sec]
+     WHERE DATEDIFF(month, SubscriptionStart, SubscriptionEnd) <= 6
+```
+```
+  4. SELECT AVG(DATEDIFF(month, SubscriptionStart, SubscriptionEnd)) AS average_duration
+     FROM [dbo].[Customer data sec]
+```
+```
+  5. SELECT customerid, subscriptiontype, SubscriptionStart, SubscriptionEnd
+     FROM [dbo].[Customer data sec]
+     WHERE DATEDIFF(month, SubscriptionStart, SubscriptionEnd) > 12
+```
+```
+  6. SELECT subscriptiontype, SUM(revenue) AS total_revenue
+     FROM [dbo].[Customer data sec]
+     GROUP BY subscriptiontype
+```
+```
+  7. SELECT region, COUNT(*) AS canceled_sub
+     FROM [dbo].[Customer data sec]
+     WHERE canceled = 1
+     GROUP BY region
+     ORDER BY canceled_sub DESC
+  
+     SELECT region, COUNT(*) AS canceled_sub
+     FROM [dbo].[Customer data sec]
+     WHERE canceled = 0
+     GROUP BY region
+     ORDER BY canceled_sub DESC
+```
+```
+  6.SELECT canceled, COUNT(*) AS total_subscriptions
+    FROM [dbo].[Customer data sec]
+    GROUP BY canceled
 ```
