@@ -1,5 +1,5 @@
 # LITA_CAPSTONE_PROJECT-CUSTOMERS_DATA
-Making reference to the Capstone Project Document, carrying out the following exploratory process and tell a compelling story by building an interactive dashboard report to gather insight and making business decisions.
+Making reference to the Capstone Project Document, carrying out the following exploratory process and tell a compelling story by building an interactive dashboard report to gather insight and make business decisions.
 
 ## OUTLINE
 
@@ -143,4 +143,28 @@ The Excel sheet made it accessible to analyze the Excel sheet The Excel sheet wa
 ![Sql Project 2 2](https://github.com/user-attachments/assets/8a7eb273-4f5f-4dee-aba8-7e277630fa73)
 ![Sql Project 2 1](https://github.com/user-attachments/assets/74ac96e3-918d-485e-bb9d-e5f48c944eee)
 
+## DASH BOARD OVERVIEW WITH POWER BI:
 
+![Power BI Customers Data](https://github.com/user-attachments/assets/6d19c583-c903-41dc-8a49-5b4af29225b7)
+
+
+## INSIGHTS GENERATION:
+
+Insights on Revenue for Subscription Type
+- Basic: This Subscription Type leads and generates more revenue, with  33,776,735, which indicates potentially larger transaction values per sale. This shows that customers prefer this 
+  kind of subscription.
+- Premium: This Subscription has a bit low patronage with revenue  16,899,064, customers have low interest in this kind of subscription.
+- Standard: This subscription revenue is relatively close to premium with a revenue  of 16,864,376, customers having interest in this subscription are almost that of premium.
+
+## RECOMMENDATION:
+
+- Subscription Comparison: Implement targeted marketing strategies, campaigns, or adverts to create more awareness about premium and standard subscriptions, also make the benefits known to the customers especially to curate more sales and generate more revenue
+
+- Subscriptions Optimization: Make the most effective use of the subscription trend by making basic subscriptions more available.
+
+## CONCLUSION:
+
+Premium and Standard subscriptions need more focus and attention on
+
+- boosting revenue through marketing strategies
+- studying market trends within the region to adequately decode the highest-selling subscription type in the region.
